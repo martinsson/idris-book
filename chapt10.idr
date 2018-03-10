@@ -30,5 +30,4 @@ halves : List a -> (List a, List a)
 halves xs = halvesHelp xs (div (length xs) 2) 
 
 halvesVect : (xs: List a) -> (Vect (div (length xs) 2) a )
-halvesVect xs = ?halvesVect_rhs
-
+halvesVect xs = ?lskdjf -- Vect.Nil :: (take (div (length xs) 2) xs)
